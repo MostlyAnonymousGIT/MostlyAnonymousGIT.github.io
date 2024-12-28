@@ -1,0 +1,9 @@
+:root {
+    color-scheme: light dark;
+
+    --bg-light: #fcf6e5;
+    --bg-dark:  #0e3a25;
+
+    --fg-light: #5d6d74;
+    --fg-dark: #96a0a0;
+}
