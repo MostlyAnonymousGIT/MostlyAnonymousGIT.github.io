@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/spacing.css">
     <link rel="stylesheet" href="./css/site.css">
 
+    <script src="./src/jquery-3.7.1.slim.min.js" type="text/javascript" defer></script>
     <script src="./src/components/header.js" type="text/javascript" defer></script>
     <script src="./src/components/footer.js" type="text/javascript" defer></script>
 </head>
@@ -22,9 +23,30 @@
                 </a>
                 Reading
             </h1>
-            <h2>2024</h2>
-            <h3>Read</h3>
-            <ol>
+
+            <h2>
+                <a href="javascript:$('.in-progress').toggle();">In Progress</a>
+            </h2>
+            <ul class="in-progress">
+                <li>
+                    <a href="https://www.goodreads.com/book/show/11138.Mere_Christianity">Mere Christianity</a>
+                </li>
+                <li>
+                    <a href="https://www.goodreads.com/book/show/60811826-i-who-have-never-known-men">I Who Have Never Known Men</a>
+                </li>
+            </ul>
+
+            <h2>
+                <a href="javascript:$('.read-2025').toggle();">2025</a>
+            </h2>
+            <ol class="read-2025 hidden">
+                Nothing yet!
+            </ol>
+
+            <h2>
+                <a href="javascript:$('.read-2024').toggle();">2024</a>
+            </h2>
+            <ol class="read-2024 hidden">
                 <li>
                     <a href="https://goodreads.com/book/show/12921211-search-inside-yourself">Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness (and World Peace)</a>
                 </li>
@@ -82,21 +104,15 @@
                 <li>
                     <a href="https://www.goodreads.com/book/show/123136728-orbital">Orbital</a>
                 </li>
-            </ol>
-            <h3>In Progress</h3>
-            <ul>
                 <li>
                     <a href="https://www.goodreads.com/book/show/2932540-united-states-catholic-catechism-for-adults">United States Catholic Catechism for Adults</a>
                 </li>
-                <li>
-                    <a href="https://www.goodreads.com/book/show/60811826-i-who-have-never-known-men">I Who Have Never Known Men</a>
-                </li>
-            </ul>
-            <h3>To Read</h3>
-            <ul>
-                <li>
-                    <a href="https://www.goodreads.com/book/show/11138.Mere_Christianity">Mere Christianity</a>
-                </li>
+            </ol>
+
+            <h2>
+                <a href="javascript:$('.backlog').toggle();">Backlog</a>
+            </h2>
+            <ul class="backlog hidden">
                 <li>
                     <a href="https://www.goodreads.com/book/show/55603933-nabre">The Holy Bible, New American Bible Revised Edition</a>
                 </li>
