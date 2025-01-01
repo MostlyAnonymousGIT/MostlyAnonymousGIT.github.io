@@ -15,10 +15,11 @@ class Footer extends HTMLElement {
             <footer class="page-footer">
                 <div class="mt-2">
                     This site was inspired by
-                    <a href="https://blog.avas.space" title="Go to ava's site" aria-label="Go to ava's site">ava's</a>
+                    <a href="https://blog.avas.space" title="Go to Ava's site" aria-label="Go to Ava's site">Ava's,</a>
+                    <a href="https://rwblickhan.org/" title="Go to Russell's site" aria-label="Go to Russell's site">Russell's,</a>
                     and
-                    <a href="https://shilin.ca" title="Go to shilin's site" aria-label="Go to shilin's site">shilin's</a>
-                    site.
+                    <a href="https://shilin.ca" title="Go to Shilin's site" aria-label="Go to Shilin's site">Shilin's</a>
+                    sites.
                 </div>
             </footer>`;
     }
